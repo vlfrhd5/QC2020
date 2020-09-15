@@ -1,0 +1,107 @@
+header {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 40%;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.box1 {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 40%;
+  height: 500px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.box1 blockquote {
+  position: absolute;
+  margin: 0 auto;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 150px;
+}
+
+.box1 blockquote p {
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+article {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 40%;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 40%;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box2 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 300px;
+  height: 60px;
+  border-radius: 1px solid black;
+  background-color: skyblue;
+}
+
+.box2__box3 {
+  position: absolute;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  top: 5px;
+  left: 55%;
+  transform: translateX(-50%);
+  background-color: rgb(232, 246, 252);
+  text-align: skyblue;
+}
+/*# sourceMappingURL=style.css.map */
