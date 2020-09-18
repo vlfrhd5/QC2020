@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "qc2020.scss"
+        "../sass/qc2020.scss"
     ],
     "names": [],
     "file": "qc2020.css"
