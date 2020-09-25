@@ -1,0 +1,39 @@
+//Alpa value
+$alpa: 0.2;
+
+//default color
+$mint: #c1dad4 !default;
+$vanilla: #f6ecd1 !default;
+$grape: #9d86be !default;
+$redbean: #dccfd9 !default;
+$sliver: #aaaba6 !default;
+$peach: #eec2d9 !default;
+$chili: #ff8575 !default;
+
+//Gray
+$gray: rgb(108, 117, 125) !default;
+$dark: rgb(52, 58, 64) !default;
+
+// Basic color
+$white: rgb(255, 255, 255) !default;
+$black: rgb(0, 0, 0) !default;
+
+// Background color
+$bg-mint: rgba($mint, $alpa) !default;
+$bg-vanilla: rgba($vanilla, $alpa) !default;
+$bg-grape: rgba($grape, $alpa) !default;
+$bg-redbean: rgba($redbean, $alpa) !default;
+$bg-sliver: rgba($sliver, $alpa) !default;
+$bg-peach: rgba($peach, $alpa) !default;
+$bg-chili: rgba($chili, $alpa) !default;
+
+//default color array
+$default-color: (
+  "mint": $mint,
+  "vanilla": $vanilla,
+  "grape": $grape,
+  "redbean": $redbean,
+  "sliver": $sliver,
+  "peach": $peach,
+  "chili": $chili,
+);
