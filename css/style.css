@@ -5,7 +5,7 @@ header {
           transform: translateX(-50%);
   width: 750px;
   height: 210px;
-  background-color: #f6ecd1;
+  background-color: rgba(193, 218, 212, 0.6);
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -40,7 +40,7 @@ header h1 {
           transform: translateX(-50%);
   width: 750px;
   height: 430px;
-  background-color: rgba(0, 123, 255, 0.2);
+  background-color: rgba(246, 236, 209, 0.6);
   border: 1px solid black;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -79,7 +79,7 @@ article {
           transform: translateX(-50%);
   width: 750px;
   height: 430px;
-  background-color: white;
+  background-color: rgba(157, 134, 190, 0.6);
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
@@ -97,7 +97,7 @@ footer {
           transform: translateX(-50%);
   width: 750px;
   height: 100px;
-  background-color: white;
+  background-color: rgba(220, 207, 217, 0.6);
   border: 1px solid black;
   border-radius: 10px;
   text-align: center;
