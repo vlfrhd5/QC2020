@@ -1,1 +1,124 @@
 @import "color";
+@import "variables";
+
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "NEXON Lv1 Gothic OTF";
+}
+
+header {
+  width: $default-width;
+  height: $header-footer-height;
+  background-color: $bg-mint;
+  border: $content-bg-border;
+  border-radius: $content-bg-radius;
+  margin-bottom: $content-bg-margin-bottom;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 60px;
+
+  &__name {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 96px;
+  }
+}
+
+.line {
+  margin-left: 50%;
+  margin-top: -10px;
+  transform: translateX(-50%);
+  width: 90px;
+  border: solid 1px rgb(77, 77, 77);
+}
+
+.box1 {
+  width: $default-width;
+  height: $default-height;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: $bg-vanilla;
+  border: $content-bg-border;
+  border-radius: $content-bg-radius;
+  margin-bottom: $content-bg-margin-bottom;
+  text-align: center;
+
+  p {
+    font-size: 16px;
+  }
+
+  blockquote {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    align-items: center;
+    width: 250px;
+    height: 80px;
+    border: $content-bg-border;
+    background-color: $chili;
+    box-shadow: 5px 5px 5px gray;
+
+    &:hover {
+      background-color: $bg-chili;
+      transition: 0.3s;
+    }
+  }
+
+  .inbox {
+    position: absolute;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    top: 5px;
+    left: 58%;
+    transform: translateX(-50%);
+    background-color: $white;
+  }
+}
+
+article {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: $default-width;
+  height: $default-height;
+  background-color: $bg-grape;
+  border: $content-bg-border;
+  border-radius: $content-bg-radius;
+  text-align: center;
+  margin-bottom: $content-bg-margin-bottom;
+
+  p {
+    font-size: 16px;
+  }
+}
+
+footer {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: $default-width;
+  height: $header-footer-height;
+  background-color: $bg-redbean;
+  border: $content-bg-border;
+  border-radius: $content-bg-radius;
+  text-align: center;
+  margin-bottom: $content-bg-margin-bottom;
+
+  p {
+    font-size: 16px;
+  }
+}
