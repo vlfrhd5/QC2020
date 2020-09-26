@@ -1,0 +1,49 @@
+@mixin content {
+  width: $default-width;
+  height: $default-height;
+  background-color: $bg-vanilla;
+  border: $content-bg-border;
+  border-radius: $content-bg-radius;
+  margin-bottom: $content-bg-margin-bottom;
+  text-align: center;
+  p {
+    font-size: 16px;
+  }
+}
+
+@mixin blockquote {
+  position: absolute;
+  top: 32%;
+  width: 250px;
+  height: 80px;
+  align-items: center;
+  margin: $default-margin;
+  border: $content-bg-border;
+  background-color: $chili;
+  box-shadow: 5px 5px 5px gray;
+
+  &:hover {
+    background-color: $bg-chili;
+    transition: 0.3s;
+  }
+}
+
+@mixin inbox {
+  position: absolute;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  top: 5px;
+  background-color: $white;
+}
+
+@mixin line {
+  margin-top: -10px;
+  width: 90px;
+  border: solid 1px rgb(77, 77, 77);
+}
+
+@mixin center {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
