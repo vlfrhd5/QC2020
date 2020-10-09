@@ -1,0 +1,86 @@
+@mixin content {
+  width: $default-width;
+  height: $default-height;
+  background-color: $bg-vanilla;
+  border: $content-bg-border;
+  border-radius: $content-bg-radius;
+  margin-bottom: $content-bg-margin-bottom;
+  text-align: center;
+  p {
+    font-size: $XXS;
+  }
+}
+
+@mixin title {
+  margin-top: 30px;
+  font-size: $XS;
+  font-weight: bold;
+}
+
+@mixin outbox {
+  position: $ABS;
+  top: 37%;
+  width: 315px;
+  height: 165px;
+  background-color: $white;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: $quote-border-radius;
+  box-shadow: 5px 5px 5px gray;
+}
+
+@mixin quotebefore {
+  position: $ABS;
+  content: '';
+  width: 50px;
+  height: 60px;
+  top: 10px;
+  left: 20px;
+  background-image: url(/image/airpods.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+}
+
+@mixin blockquote {
+  position: $ABS;
+  top: 38%;
+  width: 300px;
+  height: 150px;
+  align-items: center;
+  margin: $default-margin;
+  border: $content-bg-border;
+  background-color: $chili;
+  border-radius: $quote-border-radius;
+
+  &:hover {
+    background-color: $white;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+}
+
+@mixin inbox {
+  position: $ABS;
+  align-items: center;
+  width: 200px;
+  height: 140px;
+  top: 5px;
+  margin-left: 45%;
+  background-color: $white;
+  border-radius: $quote-border-radius;
+
+  p {
+    margin-top: 20%;
+  }
+}
+
+@mixin line {
+  width: 90px;
+  margin-top: -10px;
+  border: solid 1px rgb(77, 77, 77);
+}
+
+@mixin center {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}

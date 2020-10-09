@@ -1,0 +1,108 @@
+// @font-face {
+//   font-family: 'NEXON Lv1 Gothic OTF';
+//   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff')
+//     format('woff');
+//   font-weight: normal;
+//   font-style: normal;
+// }
+
+// *
+* {
+  font-family: $BASIC;
+}
+
+.line {
+  @include line;
+  @include center;
+}
+
+// header
+.header {
+  @include content;
+  background-color: $mint;
+
+  &__title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  &__name {
+    font-size: $name;
+    margin-top: 10px;
+    margin-left: 96px;
+  }
+
+  &__text {
+    font-size: $XXS;
+    margin-top: 20px;
+    @include center;
+  }
+}
+
+//contents
+.contents {
+  @include content;
+  height: 800px;
+
+  &__title {
+    @include title;
+  }
+
+  blockquote:before {
+    @include quotebefore;
+  }
+
+  .blockquote {
+    @include blockquote;
+    @include center;
+  }
+
+  .blockquote2 {
+    @include blockquote;
+    top: 58%;
+    background-color: $peach;
+    @include center;
+  }
+
+  .blockquote3 {
+    @include blockquote;
+    top: 78%;
+    background-color: $sliver;
+    @include center;
+  }
+
+  &__inbox {
+    @include inbox;
+    @include center;
+  }
+
+  .outbox {
+    @include center;
+    @include outbox;
+  }
+
+  .outbox2 {
+    @include center;
+    @include outbox;
+    top: 57%;
+  }
+
+  .outbox3 {
+    @include center;
+    @include outbox;
+    top: 77%;
+  }
+}
+
+//get start
+.getstart {
+  @include content;
+  background-color: $bg-grape;
+}
+
+//copyright
+.copyright {
+  @include content;
+  background-color: $bg-redbean;
+}

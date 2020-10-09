@@ -1,0 +1,23 @@
+//web fonts
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1&family=Noto+Sans+KR:wght@100&display=swap');
+@font-face {
+  font-family: 'NEXON Lv1 Gothic OTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff')
+    format('woff');
+}
+
+// fonts
+$Noto-Sans: 'Noto Sans KR', sans-serif;
+$Gothic: 'Gothic A1', sans-serif;
+$Black-han-sans: 'Black Han Sans', sans-serif;
+$BASIC: 'NEXON Lv1 Gothic OTF';
+
+// font size
+$XL: 2.75rem !default;
+$L: 2.5rem;
+$M: 2rem;
+$S: 1.75rem;
+$XS: 1.5rem;
+$XXS: 1rem;
+$quote: 6rem;
+$name: 1.25rem;
